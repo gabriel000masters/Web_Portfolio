@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import img from './profile-gabriel-olivares.jpg';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Button from '@mui/material/Button';
+import curric_vitae_esp from '..\files\Gabriel Olivares Armijo_esp.docx';
 
 const useStyles = makeStyles((theme)=>
 createStyles({
@@ -36,7 +37,7 @@ createStyles({
 const onDownload = () => {
   const link = document.createElement("a");
   link.download = `CV Gabriel Olivares.pdf`;
-  link.href = "./profile-gabriel-olivares.jpg";
+  link.href = curric_vitae_esp;
   link.click();
 };
 function ProfileAvatar() {
