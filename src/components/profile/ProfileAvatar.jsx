@@ -36,7 +36,7 @@ createStyles({
 );
 const onDownload = () => {
   const link = document.createElement("a");
-  link.download = `CV Gabriel Olivares.docx`;
+  link.download = `CV Gabriel Olivares.pdf`;
   link.href = curric_vitae_esp;
   link.click();
 };
