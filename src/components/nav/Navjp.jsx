@@ -9,12 +9,13 @@ import IconButton from '@mui/material/IconButton';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Logo from './Logo.gif';
+import Eng_flag from './English-Flag.png';
+import Spa_flag from './Spanlish-Flag.png';
 import {NavLink} from 'react-router-dom';
 
 
@@ -40,7 +41,7 @@ function Navjp(props) {
       <NavLink style={{textDecoration: 'none'} } to={'/eng'}>
         <ListItem key={'英語'} disablePadding>
             <ListItemButton sx={{ textAlign: 'center', color: 'black'}}>
-              <ListItemText primary={'英語'} />
+            <ListItem><img src={Eng_flag} alt="loading..."  width={120} height={80} /></ListItem>
             </ListItemButton>
           </ListItem>
         </NavLink>
@@ -48,7 +49,7 @@ function Navjp(props) {
           <NavLink style={{textDecoration: 'none'} } to={'/'}>
           <ListItem key={'スペイン語'} disablePadding>
             <ListItemButton sx={{ textAlign: 'center', color: 'black'}}>
-              <ListItemText primary={'スペイン語'} />
+            <ListItem><img src={Spa_flag} alt="loading..."  width={120} height={80} /></ListItem>
             </ListItemButton>
           </ListItem>
           </NavLink>
@@ -82,11 +83,11 @@ function Navjp(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           <NavLink style={{textDecoration: 'none'} } to={'/eng'}>
-          <Button key={'英語'} sx={{color:'#fff'}}>英語</Button>
+          <Button key={'英語'} sx={{color:'#fff'}}><img src={Eng_flag} alt="loading..." width={100} height={80}  /></Button>
           </NavLink>
 
           <NavLink style={{textDecoration: 'none'} } to={'/'}>
-          <Button key={'スペイン語'} sx={{color:'#fff'}}>スペイン語</Button>
+          <Button key={'スペイン語'} sx={{color:'#fff'}}><img src={Spa_flag} alt="loading..." width={100} height={80}  /></Button>
           </NavLink>
           </Box>
         </Toolbar>

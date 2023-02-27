@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import img from './profile-gabriel-olivares.jpg';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Button from '@mui/material/Button';
+import curric_vitae_eng from './Gabriel Olivares Armijo_eng.pdf';
 
 
 const useStyles = makeStyles((theme)=>
@@ -36,8 +37,8 @@ createStyles({
 );
 const onDownload = () => {
   const link = document.createElement("a");
-  link.download = `CV Gabriel Olivares.pdf`;
-  link.href = "./profile-gabriel-olivares.jpg";
+  link.download = `Resume Gabriel Olivares.pdf`;
+  link.href = curric_vitae_eng;
   link.click();
 };
 
@@ -56,7 +57,7 @@ function ProfileAvatarEng() {
       </div>
       
       <div className={classes.button}>
-        <Button onClick={onDownload} variant='contained' color='primary'>Get CV</Button>
+        <Button onClick={onDownload} variant='contained' color='primary'>Get Resume</Button>
       </div>
       </>
     )
