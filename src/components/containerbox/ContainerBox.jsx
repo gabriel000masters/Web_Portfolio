@@ -24,6 +24,7 @@ createStyles({
         flexGrow: 1,
         padding: theme.spacing(3),
         margin: theme.spacing(2),
+        color: '#fff',
     },
     title:
     {
