@@ -51,7 +51,7 @@ function ProfileAvatar() {
       <Avatar
       alt="Gabriel Olivares"
       src={img}
-      sx={{ width: 400 , height: 400 }}
+      sx={{ width: 300 , height: 400 }}
       />
     </div>
     
