@@ -49,7 +49,7 @@ function ProfileAvatarJp() {
       <Avatar
       alt="ガブリエル　オリヴァレス"
       src={img}
-      sx={{ width: 350, height: 350 }}
+      sx={{ width: 320, height: 350 }}
       />
     </div>
     
