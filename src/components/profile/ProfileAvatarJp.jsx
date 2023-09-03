@@ -3,6 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import img from './profile-gabriel-olivares.jpg';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import Button from '@mui/material/Button';
+import curric_vitae_esp from './Gabriel Olivares Armijo.pdf';
 
 const useStyles = makeStyles((theme)=>
 createStyles({
