@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Main from './routes/main';
+import Main from './routes/Main';
 import Japanese from './routes/Japanese';
 import English from './routes/English';
 
